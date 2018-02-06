@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>ir.nastooh.sport-table</groupId>
+    <artifactId>sport-table-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <slf4jVersion>1.7.21</slf4jVersion>
+        <logbackVersion>1.1.7</logbackVersion>
+        <spring.framework.version>4.3.4.RELEASE</spring.framework.version>
+        <!--<spring.spring-context.version>4.3.2.RELEASE</spring.spring-context.version>-->
+        <springSecurity.framework.version>4.3.2.RELEASE</springSecurity.framework.version><!-- 3.1.7.RELEASE (working) / 3.2.0.RELEASE -->
+        <mojarraVersion>2.2.13</mojarraVersion>
+        <myfacesVersion>2.2.11</myfacesVersion>
+        <jackson.version>2.8.4</jackson.version>
+        <maven.test.failure.ignore>true</maven.test.failure.ignore>
+    </properties>
+
+    
+    <modules>
+        <module>../sport-table-engine</module>
+        <module>../table</module>
+    </modules>
+
+
+</project>
